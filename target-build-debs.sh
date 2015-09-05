@@ -16,15 +16,10 @@ apt-get install apt-src -y -qq
 apt-src update
 
 echo Downloading libjsonrpccpp-dev source
-pushd /tmp
-mkdir libjsonrpccpp-dev
-cd libjsonrpccpp-dev
 apt-src install libjsonrpccpp-dev=0.6.0-2
 
 echo Building libjsonrpccpp
 apt-src build libjsonrpccpp-dev
 
-cd ..
-rm -rf libjsonrpccpp-dev
-popd
-
+# remove downloaded ("apt-src install") 
+rm -rf libjson-rpc-cpp-0.6.0
