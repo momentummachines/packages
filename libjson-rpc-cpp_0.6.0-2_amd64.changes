@@ -1,0 +1,60 @@
+Format: 1.8
+Date: Tue, 04 Aug 2015 20:22:57 +0200
+Source: libjson-rpc-cpp
+Binary: libjsonrpccpp-common0 libjsonrpccpp-common0-dbg libjsonrpccpp-client0 libjsonrpccpp-client0-dbg libjsonrpccpp-server0 libjsonrpccpp-server0-dbg libjsonrpccpp-stub0 libjsonrpccpp-stub0-dbg libjsonrpccpp-tools libjsonrpccpp-dev
+Architecture: amd64
+Version: 0.6.0-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Peter Spiess-Knafl <dev@spiessknafl.at>
+Changed-By: Peter Spiess-Knafl <dev@spiessknafl.at>
+Description: 
+ libjsonrpccpp-client0 - library implementing json-rpc C++ clients
+ libjsonrpccpp-client0-dbg - debugging symbols for libjsonrpccpp-client0
+ libjsonrpccpp-common0 - common functionality for server and client library
+ libjsonrpccpp-common0-dbg - debugging symbols for libjsonrpccpp-common0
+ libjsonrpccpp-dev - development files for JSON-RPC C++ framework
+ libjsonrpccpp-server0 - library implementing json-rpc C++ servers
+ libjsonrpccpp-server0-dbg - debugging symbols for libjsonrpccpp-server0
+ libjsonrpccpp-stub0 - library for stub generation of libjsonrpccpp based applications
+ libjsonrpccpp-stub0-dbg - debugging symbols for libjsonrpccpp-stub0
+ libjsonrpccpp-tools - stub generator for libjsonrpccpp based applications
+Changes: 
+ libjson-rpc-cpp (0.6.0-2) unstable; urgency=medium
+ .
+   * added patch to fix FTBS with GCC5
+   * added patch to fix FTBS on armel and armhf
+   * d/rules: strip -dev package
+Checksums-Sha1: 
+ 4ce605a3391e727944b5c60fcfcd1129125ef0a4 25182 libjsonrpccpp-common0_0.6.0-2_amd64.deb
+ 172792d7d83c11e5df5ce60493d98f001a2948dd 270178 libjsonrpccpp-common0-dbg_0.6.0-2_amd64.deb
+ b862a8887fe726bce110a94fd48c6b2a1ecbfa79 21568 libjsonrpccpp-client0_0.6.0-2_amd64.deb
+ aaadbb594221115c1ad1e63a4dbd027f6fd41f0c 238102 libjsonrpccpp-client0-dbg_0.6.0-2_amd64.deb
+ 1351b755ccf97e314255b0338901924f6cd034c5 23480 libjsonrpccpp-server0_0.6.0-2_amd64.deb
+ dfe15aadf0ed00cac8a026e03cf24fdba97aa90b 343376 libjsonrpccpp-server0-dbg_0.6.0-2_amd64.deb
+ 5f37385c18f82d93f29697387bad460f070e6831 30692 libjsonrpccpp-stub0_0.6.0-2_amd64.deb
+ b26d2d38ea5a967367cabbe35d3b7fe28508e736 321844 libjsonrpccpp-stub0-dbg_0.6.0-2_amd64.deb
+ 3577ed19bc6fc53198fdf16e930fbe9cf273c671 7984 libjsonrpccpp-tools_0.6.0-2_amd64.deb
+ 15365f1e239ba182bf0df77d0339e9aa179e1115 89998 libjsonrpccpp-dev_0.6.0-2_amd64.deb
+Checksums-Sha256: 
+ 41e0c8edd02a03b3a4fc255197f7c57c0a4de629a685bec6246d3907d62d05c3 25182 libjsonrpccpp-common0_0.6.0-2_amd64.deb
+ d106d71847e64de695a2a081b8817400727987880474afa960a9d35f6f3f3893 270178 libjsonrpccpp-common0-dbg_0.6.0-2_amd64.deb
+ b77b7e058dea8d36a2517a53407d429e8a6966b43eaae246ff3e3f3bf6fd2cd6 21568 libjsonrpccpp-client0_0.6.0-2_amd64.deb
+ 1c56e38bb4e0fa94603157ec49f51415d9ed3c8b6077a012fd613f4de56a8fc0 238102 libjsonrpccpp-client0-dbg_0.6.0-2_amd64.deb
+ 3ca0ae4877d02d7b6ce669451c9b42d717ca027e990a79d5a0f176ba539d23a3 23480 libjsonrpccpp-server0_0.6.0-2_amd64.deb
+ 6a49d0e69e9dbd0e2a326a1548f6b1aae8650f568096a91fcb90467afad400f9 343376 libjsonrpccpp-server0-dbg_0.6.0-2_amd64.deb
+ 5565bb47369a1852a51c55746bf85dea87f62409347df316592f54f1a04fff75 30692 libjsonrpccpp-stub0_0.6.0-2_amd64.deb
+ 8126d82452b18cf6fb2fc4f965d1e479a81df970fd741985a73d6ecc85315d4e 321844 libjsonrpccpp-stub0-dbg_0.6.0-2_amd64.deb
+ c5ead749e86e36874eddb739625dad979fb193c376a4ba0de164e02bc12ad1b2 7984 libjsonrpccpp-tools_0.6.0-2_amd64.deb
+ 0bf940a27834b5cc10714c00a39ced4d8523f55b07f50577e319537a1376ed96 89998 libjsonrpccpp-dev_0.6.0-2_amd64.deb
+Files: 
+ 284f9ff625c0305ae0b986bd0e56ea9c 25182 libs optional libjsonrpccpp-common0_0.6.0-2_amd64.deb
+ 4a68b03982a6fa8a383b3441fe906bef 270178 debug extra libjsonrpccpp-common0-dbg_0.6.0-2_amd64.deb
+ add9c854bd7e20fa7be922ab8c153487 21568 libs optional libjsonrpccpp-client0_0.6.0-2_amd64.deb
+ ebe27dfa98d2f13b970420028498664c 238102 debug extra libjsonrpccpp-client0-dbg_0.6.0-2_amd64.deb
+ 27b12e8dfb021a61b161c05a9ae89aa0 23480 libs optional libjsonrpccpp-server0_0.6.0-2_amd64.deb
+ c06f722d6ee3da7710e62184778bdaad 343376 debug extra libjsonrpccpp-server0-dbg_0.6.0-2_amd64.deb
+ ebe809f41bc8c6a95d1d10c7f5a4b916 30692 libdevel optional libjsonrpccpp-stub0_0.6.0-2_amd64.deb
+ ed95c4e6efc235bcd8066948aee2f7b2 321844 debug extra libjsonrpccpp-stub0-dbg_0.6.0-2_amd64.deb
+ 5233cef6490dd8f06baac7830b262f2b 7984 libdevel optional libjsonrpccpp-tools_0.6.0-2_amd64.deb
+ 0f01cd0a297b4aa6017a4af79dd93346 89998 libdevel optional libjsonrpccpp-dev_0.6.0-2_amd64.deb
