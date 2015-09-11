@@ -1,0 +1,3 @@
+The .deb files for these dependencies were built by downloading source and compiling on the target.
+On the target, run build-[library]-native.sh target to download, compile and package the .deb files.
+ 

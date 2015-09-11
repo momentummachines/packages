@@ -1,0 +1,66 @@
+Format: 1.8
+Date: Tue, 04 Aug 2015 20:22:57 +0200
+Source: libjson-rpc-cpp
+Binary: libjsonrpccpp-common0 libjsonrpccpp-common0-dbg libjsonrpccpp-client0 libjsonrpccpp-client0-dbg libjsonrpccpp-server0 libjsonrpccpp-server0-dbg libjsonrpccpp-stub0 libjsonrpccpp-stub0-dbg libjsonrpccpp-tools libjsonrpccpp-dev
+Architecture: source armhf
+Version: 0.6.0-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Peter Spiess-Knafl <dev@spiessknafl.at>
+Changed-By: Peter Spiess-Knafl <dev@spiessknafl.at>
+Description: 
+ libjsonrpccpp-client0 - library implementing json-rpc C++ clients
+ libjsonrpccpp-client0-dbg - debugging symbols for libjsonrpccpp-client0
+ libjsonrpccpp-common0 - common functionality for server and client library
+ libjsonrpccpp-common0-dbg - debugging symbols for libjsonrpccpp-common0
+ libjsonrpccpp-dev - development files for JSON-RPC C++ framework
+ libjsonrpccpp-server0 - library implementing json-rpc C++ servers
+ libjsonrpccpp-server0-dbg - debugging symbols for libjsonrpccpp-server0
+ libjsonrpccpp-stub0 - library for stub generation of libjsonrpccpp based applications
+ libjsonrpccpp-stub0-dbg - debugging symbols for libjsonrpccpp-stub0
+ libjsonrpccpp-tools - stub generator for libjsonrpccpp based applications
+Changes: 
+ libjson-rpc-cpp (0.6.0-2) unstable; urgency=medium
+ .
+   * added patch to fix FTBS with GCC5
+   * added patch to fix FTBS on armel and armhf
+   * d/rules: strip -dev package
+Checksums-Sha1: 
+ 1a58cc0562fefd0e8ed7abe2d40d4e61bd839b41 1755 libjson-rpc-cpp_0.6.0-2.dsc
+ 2a903b89785b736174630f47939e748747cb6fed 10297 libjson-rpc-cpp_0.6.0-2.debian.tar.gz
+ 61455b2ab63cc0007f6df1881d60d8746a55107e 22198 libjsonrpccpp-common0_0.6.0-2_armhf.deb
+ fa7e0228500fe3b97cc2a40ce933ea896e61fb30 262494 libjsonrpccpp-common0-dbg_0.6.0-2_armhf.deb
+ 729b048a9923acd88cb43008178959b88050644a 18844 libjsonrpccpp-client0_0.6.0-2_armhf.deb
+ 705ec71902893975b600db80b196a875cc1109fe 235514 libjsonrpccpp-client0-dbg_0.6.0-2_armhf.deb
+ 5d3fe2dec2ca64f52dd13c0db80dd61c3c4762bd 20578 libjsonrpccpp-server0_0.6.0-2_armhf.deb
+ 822e33ccf6f442a45a9e32a9f1a6c19f5297693d 338362 libjsonrpccpp-server0-dbg_0.6.0-2_armhf.deb
+ 42b8c6a1eb0ff5646f59546edb30486155bb1572 27648 libjsonrpccpp-stub0_0.6.0-2_armhf.deb
+ 6ffc4e7450de06cb4f1597acae0069aebdf56226 316746 libjsonrpccpp-stub0-dbg_0.6.0-2_armhf.deb
+ 6e206c5829c02f9af3fa081ca71b7bdacfefb381 7708 libjsonrpccpp-tools_0.6.0-2_armhf.deb
+ 4795ae16f1b85d61c63e726418d0b1abe6bb7aab 89060 libjsonrpccpp-dev_0.6.0-2_armhf.deb
+Checksums-Sha256: 
+ 69a5ece4aab5771971b50a821e9c78d93ed6b9f6ee66034b18c8a418e81e7d97 1755 libjson-rpc-cpp_0.6.0-2.dsc
+ eec488c5c750c651a81df68302335aedca382a18e2667f1430785b9f67c60a07 10297 libjson-rpc-cpp_0.6.0-2.debian.tar.gz
+ d93b8bd09bb12e30b5290a61058d78082cdbdc1b796ae103c1ec068beed7d776 22198 libjsonrpccpp-common0_0.6.0-2_armhf.deb
+ 981fdaa18711adb969d13736c6038f470ede0b38406279ddf2d6e5cd2fdbe7e1 262494 libjsonrpccpp-common0-dbg_0.6.0-2_armhf.deb
+ ad4c29dee9baf60ae823723593af9c012de6b6f280b8972a2ce4bd81a1924ad7 18844 libjsonrpccpp-client0_0.6.0-2_armhf.deb
+ 5a5bdc95e57c87f9eade78e10274dcbc90bbe182e922be2b061e44c02a59aefe 235514 libjsonrpccpp-client0-dbg_0.6.0-2_armhf.deb
+ e9cb1294eceecaae2e908abfe532b5b2bebd7f02a4a2562e066edb26bac6c234 20578 libjsonrpccpp-server0_0.6.0-2_armhf.deb
+ c16dba79c02f29dbaf3676594057eafaee5623af8d035b9ed5996273d566d191 338362 libjsonrpccpp-server0-dbg_0.6.0-2_armhf.deb
+ 2dd2c3191101f102b7135890c7c9980ceb4a8fc6131bf24915337f5a01db265a 27648 libjsonrpccpp-stub0_0.6.0-2_armhf.deb
+ 56d33321d9c9ce6c6cf9d62b4ee2dbac790519ce2a902321436e40aeecda3eb5 316746 libjsonrpccpp-stub0-dbg_0.6.0-2_armhf.deb
+ 2cfc42737e8d8323b3d08b8c7da6fa2381443c901de3ffd2c8bfa855e1f71245 7708 libjsonrpccpp-tools_0.6.0-2_armhf.deb
+ 51500f404b150d4dfdc95aec57e214ace4e29e6032359173e1a2c21c378c62b7 89060 libjsonrpccpp-dev_0.6.0-2_armhf.deb
+Files: 
+ 800e9bdf9551c98aa066cc973c785d90 1755 libs optional libjson-rpc-cpp_0.6.0-2.dsc
+ f98bbaf906947b4b41088f8a96adefd3 10297 libs optional libjson-rpc-cpp_0.6.0-2.debian.tar.gz
+ 6dc3fe42f9dc3b67fc15c8b479e035b2 22198 libs optional libjsonrpccpp-common0_0.6.0-2_armhf.deb
+ 73c8ebed30456069e88475e92829356e 262494 debug extra libjsonrpccpp-common0-dbg_0.6.0-2_armhf.deb
+ 63919fb0674c482baf76911c56aa25d7 18844 libs optional libjsonrpccpp-client0_0.6.0-2_armhf.deb
+ 25c58434a8b4762273ed12f9ee54995e 235514 debug extra libjsonrpccpp-client0-dbg_0.6.0-2_armhf.deb
+ ec983799ca28422489da44a49e078738 20578 libs optional libjsonrpccpp-server0_0.6.0-2_armhf.deb
+ 5f672c14669d2b0d6aff4cae2ff67130 338362 debug extra libjsonrpccpp-server0-dbg_0.6.0-2_armhf.deb
+ 316151854000b8e82cd8bfc91247c445 27648 libdevel optional libjsonrpccpp-stub0_0.6.0-2_armhf.deb
+ a8ee4f11b12df2a6cc91a6f25bf3cb0d 316746 debug extra libjsonrpccpp-stub0-dbg_0.6.0-2_armhf.deb
+ 822ebd92259179bec25be50d496918cf 7708 libdevel optional libjsonrpccpp-tools_0.6.0-2_armhf.deb
+ 48b024b9fc0d6df0aa84a7ca865dd676 89060 libdevel optional libjsonrpccpp-dev_0.6.0-2_armhf.deb
