@@ -3,6 +3,7 @@
 echo Installing Linaro qemu emulator
 
 echo ... installing dependencies
+sudo apt-get install flex -y -qq
 sudo apt-get install libglib2.0-dev zlib1g-dev -y -qq
 
 echo ... cloning qemu-linaro
