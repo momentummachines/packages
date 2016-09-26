@@ -19,7 +19,8 @@ git submodule update --init dtc
 echo ... building
 mkdir build
 cd build
-../configure --prefix=/usr --target-list=arm-softmmu,arm-linux-user --enable-system --enable-tools --enable-modules
+exit 0 
+../configure --prefix=/usr --target-list=arm-softmmu,arm-linux-user --enable-system --enable-tools --enable-modules --enable-fdt
 make
 
 echo ... installing
